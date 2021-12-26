@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas site</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="scss/main.css">
+</head>
+<body>
+
+    
+        <!-- holds the 80% width -->
+        <div class="layout-holder">
+            <!-- navigation area starting -->
+        <nav>
+            <!-- navigation area holding logo ,menu and icons main div -->
+            <div class="nav">
+                <!-- logo area of the site -->
+                <div class="nav__logo">
+                    <img src="images/logo.png" alt="logo-area" class="nav__picture">
+                    <p class="nav__span">  Christmas </p>
+
+                </div>
+            <!-- menu and moon icons container -->
+                <div class="menu" id="NavLinks">
+                    <ul class="nav__list nav__list--menu">
+                        <li class="nav__items"><a href="" id="active">Home</a></li>
+                        <li class="nav__items"><a href="">Celebrate</a></li>
+                        <li class="nav__items"><a href="">Gifts</a></li>
+                        <li class="nav__items"><a href="">New</a></li>
+                        <li class="nav__items"><a href=""><i class="far fa-moon"></i></a></li>
+                    </ul>
+
+                </div>
+                <div class="hamburger-menu">
+          <div class="ham-icon"><i class="fas fa-bars" onclick="hamClass(this)"></i></div>
+        </div>
+            </div>
+        
+    </nav>
+    <!-- nav area ending -->
+    <!-- header area starting contains container main area -->
+    <header>
+        <!-- cintains the banner area which has image text-box and button -->
+        <div class="banner container">
+            <!-- main div holding text box and image -->
+            <div class="banner__image">
+                <img src="images/home.png" alt="home" class="banner__pic">
+            </div>
+            <!-- text area starting -->
+            <div class="text">
+                <h1 class="text__title">Merry Christmas and
+                    Happy New Year!</h1>
+                <p class="text__desc">Christmas and a new year is about to begin, all good wishes and successes.
+
+                </p>
+                <div class="text__link">
+                    <a href="" class="button text__link--button">Get Started</a>
+                </div>
+            </div>
+        </div>
+    <!-- christmas gift container area -->
+    <div class="giving ">
+        <h3 class="giving__title">Start Giving This <br>
+            Christmas</h3>
+        
+        <!-- gift area starting the main div -->
+         <div class="gift-giving">
+             <!-- firt gift card -->
+             <div class="gift">
+                 <div class="gift__img">
+                     <img src="images/giving1.png" alt="giving">
+                 </div>
+                 <h2 class="gift__title">Surprise gifts</h2>
+                 <p class="gift__desc">They are the best <br> gifts there is.</p>
+             </div>
+             <!-- gift card 2 -->
+             <div class="gift">
+                <div class="gift__img">
+                    <img src="images/giving2.png" alt="giving">
+                </div>
+                <h2 class="gift__title">Surprise gifts</h2>
+                <p class="gift__desc">They are the best <br> gifts there is.</p>
+            </div>
+            <!-- gift card 3 -->
+            <div class="gift">
+                <div class="gift__img">
+                    <img src="images/giving3.png" alt="giving">
+                </div>
+                <h2 class="gift__title">Surprise gifts</h2>
+                <p class="gift__desc">They are the best <br> gifts there is.</p>
+            </div>
+         </div>
+
+    </div>
+    </header>
+    <!-- main area starting another banner area and gift area -->
+    <main>
+        <!-- celebrate banner text and image holds div -->
+        <div class="celebrate container">
+            <!-- first 50% width text area -->
+            <div class="celebrate__text">
+                <h2 class="celebrate__title">Celebrate With A <br>
+                    Lot Of Love</h2>
+                <p class="celebrate__desc">In this holidays, celebrate with much love and peace, offering many blessings to our loved ones, friends and neighbors, wishing them a good Christmas message.</p>
+                <div class="celebrate__link">
+                    <a href="" class="button celebrate__link--button">send Good wishes</a>
+                </div>
+            </div>
+            <!-- second 50% width area holding div -->
+            <div class="celebrate__img">
+                <img src="images/celebrate.png" alt="celebrate">
+            </div>
+        </div>
+
+        <!-- gift area container -->
+        <div class="share-gift container">
+            <!-- contains title and purchase area cards -->
+            <h1 class="share__title">Share A Gift</h1>
+            <!-- div holding entire cart area named gifts -->
+            <div class="share__gift--container">
+            <div class="gifts">
+                <!-- first single card with image ,price and title -->
+                <div class="gifts__icon">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="gifts__img">
+                    <img src="images/gift1.png" alt="gift">
+                </div>
+                <h2 class="gifts__price">$15</h2>
+                <p class="gifts__desc">Gingerbread</p>
+                
+            </div>
+            <!-- card 2 -->
+            <div class="gifts">
+                <!-- first single card with image ,price and title -->
+                <div class="gifts__icon">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="gifts__img">
+                    <img src="images/gift2.png" alt="gift">
+                </div>
+                <h2 class="gifts__price">$15</h2>
+                <p class="gifts__desc">Santa Claus Hat</p>
+                
+            </div>
+            <!-- card 3 -->
+            <div class="gifts">
+                <!-- first single card with image ,price and title -->
+                <div class="gifts__icon">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="gifts__img">
+                    <img src="images/gift3.png" alt="gift">
+                </div>
+                <h2 class="gifts__price">$15</h2>
+                <p class="gifts__desc">Christmas Tree</p>
+                
+            </div>
+            <!-- card4  -->
+            <div class="gifts">
+                <!-- first single card with image ,price and title -->
+                <div class="gifts__icon">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="gifts__img">
+                    <img src="images/gift4.png" alt="gift">
+                </div>
+                <h2 class="gifts__price">$15</h2>
+                <p class="gifts__desc">Snowman</p>
+                
+            </div>
+            <!-- card 5 -->
+            <div class="gifts">
+                <!-- first single card with image ,price and title -->
+                <div class="gifts__icon">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="gifts__img">
+                    <img src="images/gift5.png" alt="gift">
+                </div>
+                <h2 class="gifts__price">$15</h2>
+                <p class="gifts__desc">Candy Stick</p>
+                
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <!--#####*********8 aside area  ************#############-->
+    <aside>
+        <!-- new gifts and 3rd banner area -->
+        <section class="new container">
+            <h2 class="new__title">New Gifts</h2>
+            <!-- 3 card holding main layout card that holds 3 cards  -->
+            <article class="card">
+                <!-- first card has a width of 30% -->
+                    <div class="card__main">
+                        <!-- image area -->
+                        <div class="card__circle"></div>
+                        <div class="card__img">
+                            <img src="images/new1.png" alt="card">
+                        </div>
+                    
+                        <!-- text-area -->
+                        <h2 class="card__price">$15</h2>
+                        <p class="card__desc">Reindeer</p>
+                        <div class="card__icon">
+                            <i class="far fa-heart"></i>
+
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="card__main">
+                        <!-- image area -->
+                        <div class="card__circle"></div>
+                        <div class="card__img">
+                            <img src="images/new4.png" alt="card">
+                        </div>
+                    
+                        <!-- text-area -->
+                        <h2 class="card__price">$15</h2>
+                        <p class="card__desc">Christmas Wreath</p>
+                        <div class="card__icon">
+                            <i class="far fa-heart"></i>
+
+                        </div>
+                    </div>
+                    
+                    <!-- card 3 -->
+                    <div class="card__main">
+                        <!-- image area -->
+                        <div class="card__circle"></div>
+                        <div class="card__img">
+                            <img src="images/new2.png" alt="card">
+                        </div>
+                    
+                        <!-- text-area -->
+                        <h2 class="card__price">$15</h2>
+                        <p class="card__desc">Snow Globe</p>
+                        <div class="card__icon">
+                            <i class="far fa-heart"></i>
+
+                        </div>
+                    </div>
+            </article>
+            <!-- Larticle area  ending-->
+
+
+        </section>
+
+        <!-- banner 3 that has message area and image -->
+        <!-- feedback giving area feedback the layout holder -->
+        <div class="feedback">
+            
+            
+            <!-- first div that holds text box -->
+            <div class="feedback__text">
+                <h1 class="feedback__title">Send Good <br>
+                    Wishes!</h1>
+                <div class="input-area">
+                    <input type="text" class="feedback__input" placeholder=" write your message">
+                </div>
+                <div class="feedback__button">
+                    <a href="#" class="button feedback__button--link">Send Wishes</a>
+                </div>
+                
+            </div>
+            <!-- holds the image div width of 50% -->
+            <div class="feedback__img">
+                <div class="feedback__pic">
+                
+                <img src="images/message.png" alt="message">
+            </div>
+                
+            </div>
+            
+        </div>
+    
+        
+    </aside>
+
+    <!-- aside ending -->
+    <!-- ############ footer area stating @############33 -->
+    <footer>
+        <!-- footer area starting -->
+                    <!-- footer main div and the layout holds the sub div -->
+
+        <section class="footer">
+
+            <!-- first sub div -->
+            <div class="footer__christmas">
+                <h2 class="footer__title">Christmas
+                </h2>
+                <p class="footer__desc">This Christmas give <br>
+                    a lot of love</p>
+                <div class="footer__img">
+                    <img src="images/footer1.png" alt="footer">
+                </div>
+                
+            </div>
+            <!-- second sub div -->
+            <div class="footer__services">
+                <ul class="footer__list">
+                    <li class="footer__items--desc"><a href="">Our Services</a></li>
+                    <li class="footer__items"><a href="">Pricing</a></li>
+                    <li class="footer__items"><a href="">Discounts</a></li>
+                    <li class="footer__items"><a href="">Shipping mode</a></li>
+                </ul>
+            </div>
+            <!-- third sub div -->
+            <div class="footer__services">
+                <ul class="footer__list">
+                    <li class="footer__items--desc"><a href="">Support</a></li>
+                    <li class="footer__items"><a href="">FAQs</a></li>
+                    <li class="footer__items"><a href="">Support center</a></li>
+                    <li class="footer__items"><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- fourth sub div -->
+            <div class="footer__available">
+                <h2 class="footer__title">Available On</h2>
+                <div class="footer__img  footer__img--pic1">
+                    <img src="images/aviable1.png" alt="available">
+                </div>
+                <div class="footer__img footer__img--pic2">
+                    <img src="images/aviable2.png" alt="available">
+                </div>
+                <div class="footer__img footer__img--pic3">
+                    <img src="images/footer2.png" alt="available">
+                </div>
+                
+            </div>
+            
+            
+            
+            
+            
+        </section>
+
+    </footer>
+    <!-- footer ending -->
+
+
+
+
+    
+</div>
+<!-- layout holder ending div -->
+
+<!-- ----------------- js ------------------------ -->
+<script>
+function hamClass(hamicon) {
+        if (hamicon.className == "fas fa-bars") {
+          hamicon.className = "fas fa-times";
+          NavLinks.style.clipPath = "circle(250% at top right)";
+       
+
+        } else {
+          hamicon.className = "fas fa-bars";
+          NavLinks.style.clipPath = "circle(0px at top right)";
+
+        }
+      }
+
+</script>
+</body>
+</html>
